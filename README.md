@@ -32,22 +32,6 @@ This MATLAB code consists of a two-level Hierarchical Model Predictive Control (
   * Horizon (Nh): 6h (_wheather forecast + power consumption_)
   * Ts: 1h (_electricity purchasing or selling in last moment_)
 
-## Code structure
-
-The code was developped in object oriented fashion. The main file is called *Hierarchical_Building_Microgrid.m*. Therefore, to run the MPC controller, you only need to run this file. 
-
-The entire code is structured into 9 classes:
-
-* Photovoltaic.m
-* Wind_Turbine.m
-* Smart_Building.m
-* Electrical_Vehicle.m
-* Battery.m
-* Electricity_Market.m
-* Tertiary_Control.m
-* Secondary_Control.m
-* Common.m
-
 ## Simulation 
 
 You can have a preview of the HMPC by seeing the simulations videos of the **Hierarchical Control without disturbance** and **Hierarchical Control with disturbance**:
