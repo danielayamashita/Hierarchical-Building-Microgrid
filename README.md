@@ -30,7 +30,7 @@ This MATLAB code consists of a two-level Hierarchical Model Predictive Control (
   * Ts: 1h (_discretization of the electricity trading plan_)
 * Tertiary Control layer with intraday market
   * Horizon (Nh): 6h (_wheather forecast + power consumption_)
-  * Ts: 1h (_electricity purchasing or selling in last moment_)
+  * Ts: 1h (_electricity purchase or sell at last moment_)
 
 ## Simulation 
 
